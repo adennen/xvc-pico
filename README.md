@@ -41,6 +41,7 @@ mkdir ~/repos
 cd ~/repos
 
 git clone https://github.com/raspberrypi/pico-sdk.git
+cd pico-sdk; git submodule update --init
 # git clone https://github.com/kholia/xvc-pico.git
 git clone https://github.com/tom01h/xvc-pico
 ```
